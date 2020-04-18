@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(8, 166, 180);
+  }
+  h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;font-size: 32px;
+  }
+  h2{
+    font-family: "Comic Sans MS", cursive, sans-serif;font-size: 7px;align-content:right;
+  }
+  
+
+
+  input[type=text] {
+    width: 44%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing:border-box;
+    border: bisque;
+    border-radius: 15px;
+    background-color: rgb(226, 217, 217);
+    color: rgb(10, 10, 10);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+  
+  input[type=password] {
+    width: 44%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing:border-box;
+    border: bisque;
+    border-radius: 15px;
+    background-color: rgb(226, 217, 217);
+    color: rgb(10, 10, 10);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  .button {
+    background-color: #ddd;
+    border:black;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 1px;
+    /* cursor: pointer; */
+    border-radius: 16px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 22px;
+  }
+  
+  .container{
+    background-color: rgb(54, 181, 204);
+    border-style: hidden;
+    border-radius: 30px;
+    padding:25px;
+    text-align: center;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   
+    
+  }
+  @media screen and (max-width:900px){
+  
+      .main-contianer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-evenly; 
+        
+      }
+    
+    }
+  
+    
